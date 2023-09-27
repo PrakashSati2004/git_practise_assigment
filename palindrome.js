@@ -1,10 +1,10 @@
-let num = 3;
-let count = 0;
-for(let i = 0; i < 100; i--){
-	if(num % i == 0){
-	count++;
-	};
+let str = "naman";
+let bag = "";
+for(let i = str.length-1; i >=0 ; i--){
+bag+=str[i];
 };
-if(count == 2){
-console.log("prime no");
+if(str == bag){
+console.log("palindrome");
+}else {
+console.log("not palindrome");
 };
